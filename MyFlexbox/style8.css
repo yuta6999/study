@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  /* border: 8px solid blue; */
+  /* box-sizing: border-box; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background: pink;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+}
+
+main {
+  background: skyblue;
+  flex: 1;
+}
+
+nav {
+  background: tomato;
+  width: 160px;
+  order: -1;
+}
+
+aside {
+  background: orange;
+  width: 160px;
+}
+
+footer {
+  background: silver;
+}

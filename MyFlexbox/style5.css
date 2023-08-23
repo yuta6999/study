@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+.container {
+  border: 8px solid blue;
+  display: flex;
+  width: 280px;
+  flex-wrap: wrap;
+  /* gap: 16px; */
+  gap: calc((280px - 80px * 3) / 2);
+}
+
+.item-1 {
+  width: 80px;
+  height: 80px;
+  background-color: pink;
+}
+
+.item-2 {
+  width: 80px;
+  height: 80px;
+  background-color: skyblue;
+}
+
+.item-3 {
+  width: 80px;
+  height: 80px;
+  background-color: orange;
+}
+
+.item-4 {
+  width: 80px;
+  height: 80px;
+  background-color: silver;
+}
+
+.item-5 {
+  width: 80px;
+  height: 80px;
+  background-color: tomato;
+}
